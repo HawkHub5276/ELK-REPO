@@ -1,5 +1,5 @@
 # JHAWKINS_ELK-REPO
-Repository of the ELK Deployment
+
 **THE AUTOMATED ELK STACK DEPLOYMENT**
 
 The files shown in this document and stored in this repository were used to configure the network depicted below:
