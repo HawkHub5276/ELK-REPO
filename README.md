@@ -91,9 +91,7 @@ The playbook implements the following tasks as listed in the run output:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![Text
-
-Description automatically generated](Aspose.Words.ed041330-c3eb-4714-8414-02b90e46a770.003.jpeg)
+https://drive.google.com/file/d/1Z-SH9tVglsCW5zIS5EOxvdMPbYTpBdbg/view?usp=sharing
 
 
 **Target Machines & Beats in Use**
