@@ -3,6 +3,7 @@ Repository of the ELK Deployment
 **THE AUTOMATED ELK STACK DEPLOYMENT**
 
 The files shown in this document and stored in this repository were used to configure the network depicted below:
+https://docs.google.com/document/d/1-xAqrazYwbKwtlJFryb5SoIfbFI6TOV2pJGhaSeH9F8/edit?usp=sharing
 
 ![A picture containing timeline
 
