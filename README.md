@@ -5,10 +5,6 @@ Repository of the ELK Deployment
 The files shown in this document and stored in this repository were used to configure the network depicted below:
 https://docs.google.com/document/d/1-xAqrazYwbKwtlJFryb5SoIfbFI6TOV2pJGhaSeH9F8/edit?usp=sharing
 
-![A picture containing timeline
-
-Description automatically generated](Aspose.Words.ed041330-c3eb-4714-8414-02b90e46a770.001.png)
-
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate
 the entire deployment pictured above or, alternatively, select portions of the **playbook** file can be used to install
 only certain pieces of it, such as Filebeats.
