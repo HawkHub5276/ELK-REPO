@@ -78,15 +78,15 @@ https://drive.google.com/file/d/1MGSwMVfCJQA940oCfsTIqUULITDrNBmz/view?usp=shari
 The playbook implements the following tasks as listed in the run output:
 
 1. **Configure Elk VM with Docker**
-1. **Install docker.io**
-1. **Install pip3**
+2. **Install docker.io**
+3. **Install pip3**
 
 ` `**-** *Note:  [**pip**](https://realpython.com/courses/what-is-pip/) is a package manager for Python. It is a tool that allows you to install and manage additional libraries and [dependencies](https://realpython.com/courses/managing-python-dependencies/) that are not distributed as part of the standard library.*  Package management is so important that pip has been included with the Python installer since versions 3.4 for Python 3 and 2.7.9 for Python 2, and it’s used by many Python projects, which makes it an essential tool. 
 
 *(Source: [What Is Pip? A Guide for New Pythonistas – Real Python](https://realpython.com/what-is-pip/#getting-started-with-pip))*
 
-1. **Install Docker python module**
-1. **Download and launch a docker elk container**
+4. **Install Docker python module**
+5. **Download and launch a docker elk container**
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
