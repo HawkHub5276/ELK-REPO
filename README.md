@@ -4,7 +4,7 @@
 
 The files shown in this document and stored in this repository were used to configure the network depicted below:
 
-![ELK-Project Diagram](https://user-images.githubusercontent.com/89852352/154146636-f1aa16f0-adf9-4316-87d7-18b0d7df90eb.png)
+![Elk_Yaml_file](https://user-images.githubusercontent.com/89852352/154157883-55501529-3218-4d74-921e-634d764aef28.png)
 
 https://docs.google.com/document/d/1-xAqrazYwbKwtlJFryb5SoIfbFI6TOV2pJGhaSeH9F8/edit?usp=sharing
 
@@ -75,12 +75,11 @@ The main advantage of automating the configurations for Ansible is that it allow
 
 **The ELK playbook (elk.yml):**
 
-![Elk_Yaml_file](https://user-images.githubusercontent.com/89852352/154146365-d16d7149-d8fd-40cb-8380-786b3cfbc5cc.png)
 
 https://drive.google.com/file/d/1MGSwMVfCJQA940oCfsTIqUULITDrNBmz/view?usp=sharing
 
 
-The playbook implements the following tasks as listed in the run output:
+This playbook implements the following tasks as listed in the run output:
 
 1. **Configure Elk VM with Docker**
 2. **Install docker.io**
