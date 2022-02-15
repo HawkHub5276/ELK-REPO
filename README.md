@@ -3,7 +3,6 @@
 **THE AUTOMATED ELK STACK DEPLOYMENT**
 
 The files shown in this document and stored in this repository were used to configure the network depicted below:
-![image](https://user-images.githubusercontent.com/89852352/154168813-907716ab-50fd-4b65-832f-8701a47a0354.png)
 
 ![ELK-Project Diagram](https://user-images.githubusercontent.com/89852352/154158090-36723ff1-e848-406a-a371-0bba640f67ca.png)
 https://docs.google.com/document/d/1-xAqrazYwbKwtlJFryb5SoIfbFI6TOV2pJGhaSeH9F8/edit?usp=sharing
@@ -74,10 +73,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 The main advantage of automating the configurations for Ansible is that it allows an administrator to deploy multiple servers with a single YAML playbook with minimal changes.
 
 **The ELK playbook (elk.yml):**
-
-![Elk_Yaml_small_file](https://user-images.githubusercontent.com/89852352/154158681-63a7d080-0332-4bd4-ac0f-9cd90548ccbd.png)
-
-
+![image](https://user-images.githubusercontent.com/89852352/154168951-609abc14-a7d3-4bbd-ade2-e9b35b83fdac.png)
 https://drive.google.com/file/d/1MGSwMVfCJQA940oCfsTIqUULITDrNBmz/view?usp=sharing
 
 
