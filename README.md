@@ -75,6 +75,9 @@ The main advantage of automating the configurations for Ansible is that it allow
 
 **The ELK playbook (elk.yml):**
 
+![Elk_Yaml_file](https://user-images.githubusercontent.com/89852352/154145581-dbca0961-fd53-41f9-a7fc-079b0bfe755b.jpg)
+
+
 https://drive.google.com/file/d/1MGSwMVfCJQA940oCfsTIqUULITDrNBmz/view?usp=sharing
 
 
