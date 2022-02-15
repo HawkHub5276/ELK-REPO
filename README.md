@@ -3,6 +3,7 @@
 **THE AUTOMATED ELK STACK DEPLOYMENT**
 
 The files shown in this document and stored in this repository were used to configure the network depicted below:
+
 ![ELK-Project Diagram](https://user-images.githubusercontent.com/89852352/154142423-040f6af3-882d-47d1-8387-a6463ac756b6.png)
 
 https://docs.google.com/document/d/1-xAqrazYwbKwtlJFryb5SoIfbFI6TOV2pJGhaSeH9F8/edit?usp=sharing
