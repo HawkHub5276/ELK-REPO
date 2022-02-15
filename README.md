@@ -4,6 +4,7 @@
 
 The files shown in this document and stored in this repository were used to configure the network depicted below:
 
+![ELK-Project Diagram](https://user-images.githubusercontent.com/89852352/154146636-f1aa16f0-adf9-4316-87d7-18b0d7df90eb.png)
 
 
 https://docs.google.com/document/d/1-xAqrazYwbKwtlJFryb5SoIfbFI6TOV2pJGhaSeH9F8/edit?usp=sharing
