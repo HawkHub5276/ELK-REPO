@@ -95,8 +95,6 @@ The playbook implements the following tasks as listed in the run output:
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 ![Docker PS Command](https://user-images.githubusercontent.com/89852352/154147006-756e4409-bcb4-45f6-a1e1-2b7b7104b79d.jpg)
-
-
 https://drive.google.com/file/d/1Z-SH9tVglsCW5zIS5EOxvdMPbYTpBdbg/view?usp=sharing
 
 
@@ -120,6 +118,8 @@ I only installed Filebeats on my machine.  The other available for installation 
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned (our control node is the Jump box) SSH into the Jump box  and follow the steps below:
 
 - Copy the **playbook file to** /etc/ansible.  The /etc/ansible directory contains the files:  ansible.cfg, elk.yml, hosts, and **my-playbook.yml**.
+- ![my-playbook yml](https://user-images.githubusercontent.com/89852352/154149136-8558ee41-bfd3-466b-964c-77fdc24c4d8e.png)
+
 - Update the **hosts** file to include ip addresses for webservers (Web-1 & Web-2) as well as the ELK virtual machine.
 - Run the **playbook** and navigate to **the Kibana website dashboard** to check that the installation worked as expected.
 
