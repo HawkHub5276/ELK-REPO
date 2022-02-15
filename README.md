@@ -6,7 +6,6 @@ The files shown in this document and stored in this repository were used to conf
 
 ![ELK-Project Diagram](https://user-images.githubusercontent.com/89852352/154146636-f1aa16f0-adf9-4316-87d7-18b0d7df90eb.png)
 
-
 https://docs.google.com/document/d/1-xAqrazYwbKwtlJFryb5SoIfbFI6TOV2pJGhaSeH9F8/edit?usp=sharing
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate
@@ -94,6 +93,9 @@ The playbook implements the following tasks as listed in the run output:
 5. **Download and launch a docker elk container**
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+
+![Docker PS Command](https://user-images.githubusercontent.com/89852352/154147006-756e4409-bcb4-45f6-a1e1-2b7b7104b79d.jpg)
+
 
 https://drive.google.com/file/d/1Z-SH9tVglsCW5zIS5EOxvdMPbYTpBdbg/view?usp=sharing
 
