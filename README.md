@@ -137,7 +137,8 @@ ansible-playbook install\_filebeat.yml webservers
 
 When the ELK machine is up and running, use the **curl command** or open a new browser and use the **public ip address & port 5601 for the ELK machine (20.110.123.43).**  http://[ **20.110.123.43**]:5601/app/kibana
 
-**Bonus\*\*** - The **nano command** is used to update the files.
+**Bonus\*\*** 
+- I used the **nano command** to edit and update the files.
 
 
 
