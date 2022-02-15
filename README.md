@@ -4,8 +4,7 @@
 
 The files shown in this document and stored in this repository were used to configure the network depicted below:
 
-![Elk_Yaml_file](https://user-images.githubusercontent.com/89852352/154157883-55501529-3218-4d74-921e-634d764aef28.png)
-
+![ELK-Project Diagram](https://user-images.githubusercontent.com/89852352/154158090-36723ff1-e848-406a-a371-0bba640f67ca.png)
 https://docs.google.com/document/d/1-xAqrazYwbKwtlJFryb5SoIfbFI6TOV2pJGhaSeH9F8/edit?usp=sharing
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate
@@ -75,6 +74,7 @@ The main advantage of automating the configurations for Ansible is that it allow
 
 **The ELK playbook (elk.yml):**
 
+![Elk_Yaml_file](https://user-images.githubusercontent.com/89852352/154158282-44109cc1-1ab5-4aca-a2fd-6b3d17b2e91b.png)
 
 https://drive.google.com/file/d/1MGSwMVfCJQA940oCfsTIqUULITDrNBmz/view?usp=sharing
 
