@@ -130,7 +130,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 - Which URL do you navigate to to check that the ELK server is running?
   When the ELK machine is up and running, use the **curl command** or open a new browser and use the **public ip address & port 5601 for the ELK machine (20.110.123.43).**
-                    http://[ **20.110.123.43**]:5601/app/kibana
+                                    http://[ **20.110.123.43**]:5601/app/kibana
 
   ![image](https://user-images.githubusercontent.com/89852352/154528965-0f9a7247-47e4-4c2e-9ec4-05b476e9f463.png)
 
