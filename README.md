@@ -115,7 +115,7 @@ I only installed Filebeats on my machine.  The other available for installation 
 
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned (our control node is the Jump box) SSH into the Jump box  and follow the steps below:
 
-- **COPY** the **playbook file to** /etc/ansible.  The /etc/ansible directory contains the files:  ansible.cfg, elk.yml, and hosts.
+- **COPY** the **playbook file to** /etc/ansible (cd /etc/ansible)  The /etc/ansible directory contains the files:  ansible.cfg, elk.yml, and hosts.
 
 - **UPDATE** the **hosts** file to include ip addresses for webservers (Web-1 & Web-2) as well as the ELK virtual machine.
 - **RUN** the **playbook** and navigate to **the Kibana website dashboard** to check that the installation worked as expected.
@@ -126,18 +126,17 @@ In order to use the playbook, you will need to have an Ansible control node alre
   The playbook is a YAML  file (extension .yml).  For example, the elk.yml file would be copied into the **/etc/ansible** directory (you may create a “files” directory and place necessary files there).  
 - Which file do you update to make Ansible run the playbook on a specific machine? **Hosts**
 - To run the playbook, cd to the /etc/ansible directory.  
-Then, run the appropriate command(s):  	ansible-playbook install\_elk.yml, ansible-playbook install\_filebeat.yml webservers, etc. 
+  Then, run the appropriate command(s):  	ansible-playbook install\_elk.yml, ansible-playbook install\_filebeat.yml webservers, etc. 
 
 - Which URL do you navigate to to check that the ELK server is running?
   When the ELK machine is up and running, use the **curl command** or open a new browser and use the **public ip address & port 5601 for the ELK machine (20.110.123.43).**
-  
-  http://[ **20.110.123.43**]:5601/app/kibana
+    http://[ **20.110.123.43**]:5601/app/kibana
 
   ![image](https://user-images.githubusercontent.com/89852352/154528965-0f9a7247-47e4-4c2e-9ec4-05b476e9f463.png)
 
 
 **Bonus\*\*** 
-- I used the **nano command** to edit and update the files.
+- I used the **nano command** to edit and update the yaml files.
 
 
 
