@@ -116,7 +116,9 @@ I only installed Filebeats on my machine.  The other available for installation 
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned (our control node is the Jump box) SSH into the Jump box  and follow the steps below:
 
 - Copy the **playbook file to** /etc/ansible.  The /etc/ansible directory contains the files:  ansible.cfg, elk.yml, hosts, and **my-playbook.yml**.
+
 - ![my-playbook yml](https://user-images.githubusercontent.com/89852352/154149136-8558ee41-bfd3-466b-964c-77fdc24c4d8e.png)
+This is my screenshot of starting to build a playbook. Playbooks are a core part of Ansible, offering a repeatable, re-usable, simple configuration management and multi-machine deployment system.
 
 - Update the **hosts** file to include ip addresses for webservers (Web-1 & Web-2) as well as the ELK virtual machine.
 - Run the **playbook** and navigate to **the Kibana website dashboard** to check that the installation worked as expected.
