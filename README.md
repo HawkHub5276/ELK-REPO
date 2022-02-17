@@ -73,6 +73,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 The main advantage of automating the configurations for Ansible is that it allows an administrator to deploy multiple servers with a single YAML playbook with minimal changes.
 
 **The ELK playbook (elk.yml):**
+
 ![image](https://user-images.githubusercontent.com/89852352/154168951-609abc14-a7d3-4bbd-ade2-e9b35b83fdac.png)
 https://drive.google.com/file/d/1MGSwMVfCJQA940oCfsTIqUULITDrNBmz/view?usp=sharing
 
