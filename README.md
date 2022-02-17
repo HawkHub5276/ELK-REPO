@@ -127,8 +127,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
   The playbook is a YAML  file (extension .yml).  It is copied into the **/etc/ansible** directory (you may create a “files” directory and place necessary files there).  
 - Which file do you update to make Ansible run the playbook on a specific machine? **Hosts**
 - To run the playbook, cd to the /etc/ansible directory.  
-Then, run the appropriate command:  	ansible-playbook install\_elk.yml
-                                      ansible-playbook install\_filebeat.yml webservers 
+Then, run the appropriate command(s):  	ansible-playbook install\_elk.yml, ansible-playbook install\_filebeat.yml webservers, etc. 
 
 - Which URL do you navigate to to check that the ELK server is running?
 When the ELK machine is up and running, use the **curl command** or open a new browser and use the **public ip address & port 5601 for the ELK machine (20.110.123.43).**  http://[ **20.110.123.43**]:5601/app/kibana
