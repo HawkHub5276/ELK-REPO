@@ -35,7 +35,7 @@ Integrating an ELK server allows users to easily monitor the 1) vulnerable VMs f
 
 - Filebeats watch for changes to the file system.  Specifically, we use it to collect Apache logs. The Apache HTTP Server provides very comprehensive and flexible logging capabilities.  Apache httpd is capable of writing error and access log files through a pipe to another process, rather than directly to a file. This dramatically increases the flexibility of logging, without adding code to the main server. (Source: <https://httpd.apache.org/docs/2.4/logs.html> ) - Piped Logs.
 
-- Metricbeats record and monitor statistics from the running servers to help identify  changes in system measurements.  Data retrieved can include operating system metrics such as CPU or memory usage, or data related to services running on the server.
+- Metricbeats record and monitor statistics from the running servers to help identify  changes in system measurements.  Data retrieved can include operating system metrics such as CPU or memory usage, or data related to services running on the server(s).
 
 The configuration details of each machine are listed below.
 
