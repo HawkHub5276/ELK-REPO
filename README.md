@@ -31,7 +31,7 @@ Load balancing ensures that the application will be highly **available, efficien
 
 The off-loading function of a load balancer defends an organization against distributed denial-of-service (DDoS) attacks. It does this by shifting attack traffic from the corporate server to a public cloud provider. (Source: <https://avinetworks.com/what-is-load-balancing/>).  The load balancer, as the name implies, insures that the work to process incoming traffic is shared by all load balanced servers.  
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the file systems of the servers on the network, and also the system metrics such as CPU usage, attempted SSH logins, sudo escalation failures, etc.
+Integrating an ELK server allows users to easily monitor the 1) vulnerable VMs for changes to the file systems of the servers on the network, and also 2) the system metrics such as CPU usage, attempted SSH logins, sudo escalation failures, etc.
 
 - Filebeats watch for changes to the file system.  Specifically, we use it to collect Apache logs. The Apache HTTP Server provides very comprehensive and flexible logging capabilities.  Apache httpd is capable of writing error and access log files through a pipe to another process, rather than directly to a file. This dramatically increases the flexibility of logging, without adding code to the main server. (Source: <https://httpd.apache.org/docs/2.4/logs.html> ) - Piped Logs.
 
@@ -69,22 +69,22 @@ A summary of the access policies in place can be found in the table below.
 **Elk Configuration**
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is particularly advantageous because it avoids human error.
+Using automation allows for much greater scaling andr reduces administrative burden.
 
-The main advantage of automating the configurations for Ansible is that it allows an administrator to deploy multiple servers with a single YAML playbook with minimal changes.
+Another great advantage of automating the configurations for Ansible is that it allows an administrator to deploy multiple servers with a single YAML playbook with minimal changes.
 
 **The ELK playbook (elk.yml):**
 
 ![image](https://user-images.githubusercontent.com/89852352/154168951-609abc14-a7d3-4bbd-ade2-e9b35b83fdac.png)
 https://drive.google.com/file/d/1MGSwMVfCJQA940oCfsTIqUULITDrNBmz/view?usp=sharing
 
-
-This playbook implements the following tasks as listed in the run output:
+This playbook implements the following tasks as indicated in the elk.yml file:
 
 1. **Configure Elk VM with Docker**
 2. **Install docker.io**
 3. **Install pip3**
 
-` `**-** *Note:  [**pip**](https://realpython.com/courses/what-is-pip/) is a package manager for Python. It is a tool that allows you to install and manage additional libraries and [dependencies](https://realpython.com/courses/managing-python-dependencies/) that are not distributed as part of the standard library.*  Package management is so important that pip has been included with the Python installer since versions 3.4 for Python 3 and 2.7.9 for Python 2, and it’s used by many Python projects, which makes it an essential tool. 
+` `**-** *Note:  [**pip**](https://realpython.com/courses/what-is-pip/) is a package manager for Python. It is a tool that allows you to install and manage additional libraries and [dependencies](https://realpython.com/courses/managing-python-dependencies/) that are not distributed as part of the standard library.*  Package management is so important that pip has been included with the Python installer since versions 3.4 for Python 3 and 2.7.9 for Python 2, and it is used by many Python projects, which makes it an essential tool. 
 *(Source: [What Is Pip? A Guide for New Pythonistas – Real Python](https://realpython.com/what-is-pip/#getting-started-with-pip))*
 
 4. **Install Docker python module**
@@ -124,15 +124,13 @@ In order to use the playbook, you will need to have an Ansible control node alre
 **Recap:**
 
 - Which file is the playbook? 
-  The playbook is a YAML  file (extension .yml).  It is copied into **/etc/ansible** directory (you may create a “files” directory and place necessary files there).  
+  The playbook is a YAML  file (extension .yml).  It is copied into the **/etc/ansible** directory (you may create a “files” directory and place necessary files there).  
 - Which file do you update to make Ansible run the playbook on a specific machine? **Hosts**
 - To run the playbook, cd to the /etc/ansible directory.  
 Then, run the appropriate command:  	ansible-playbook install\_elk.yml
-
-ansible-playbook install\_filebeat.yml webservers 
+                                      ansible-playbook install\_filebeat.yml webservers 
 
 - Which URL do you navigate to to check that the ELK server is running?
-
 When the ELK machine is up and running, use the **curl command** or open a new browser and use the **public ip address & port 5601 for the ELK machine (20.110.123.43).**  http://[ **20.110.123.43**]:5601/app/kibana
 
 **Bonus\*\*** 
