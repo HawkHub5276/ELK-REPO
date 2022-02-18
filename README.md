@@ -137,7 +137,10 @@ In order to use the playbook, you will need to have an Ansible control node alre
     ![image](https://user-images.githubusercontent.com/89852352/154528965-0f9a7247-47e4-4c2e-9ec4-05b476e9f463.png)
 
 
+
+
 **Bonus\*\*** 
+
 - I used the **nano command** to edit and update the yaml files.
 
 
